@@ -62,12 +62,12 @@
           }
 
           // Construct the WhatsApp message
-          var message = "Halo, Selamat " + greeting + ", saya telah mengajukan pertemuan.\n";
+          var message = "Halo, Selamat " + greeting + " Admin Klinik Mitra Kelurga, saya telah mengajukan pertemuan dengan data sebagai berikut :.\n";
           message += "Nama: " + fullName + "\n";
           message += "Email: " + email + "\n";
           message += "Keluhan: " + department + "\n";
-          message += "Cabang: " + cabang + "\n";
-          message += "Mohon untuk diproses ya. Terimakasih!";
+          message += "Cabang: Klinik Mitra Keluarga, " + cabang + "\n";
+          message += "Mohon untuk diproses lebih lanjut. Terimakasih!";
 
           // Generate the WhatsApp link
           var whatsappLink = "https://wa.me/62895803248605?text=" + encodeURIComponent(message);
